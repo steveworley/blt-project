@@ -5,12 +5,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^8.3"
+        "acquia/blt": "8.x-dev"
     },
     "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
-        "./vendor/acquia/blt/blt.sh create-project"
+        "blt create-project"
       ]
     }
 }
